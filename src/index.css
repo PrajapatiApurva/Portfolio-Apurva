@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  background: #91f859;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:linear-gradient(260deg, #DA7C25 8%, #B923E1 100%);
+  border-radius: 50px; 
+}
+
+body{
+  height: 100vh;
+  background: #161513;
+  color: rgb(249, 237, 237);
+}
