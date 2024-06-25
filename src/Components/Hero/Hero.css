@@ -13,6 +13,11 @@
   border-radius: 50%;
   border: none;
   box-shadow: -10px 10px 10px 5px rgb(45, 34, 91);
+  transition: all 0.4s ease-in-out;
+}
+
+.profile-img:hover {
+  transform: rotate(360deg);
 }
 
 .hero h1{
