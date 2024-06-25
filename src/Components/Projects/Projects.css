@@ -34,3 +34,22 @@
   transform: scale(1.12);
   border:3px solid #ff004c;
 }
+
+@media (max-width: 768px){
+
+  .project-title h2{
+    width: 450px;
+    font-size: 2.5rem;
+  }
+
+  .project-container{
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    margin: 40px 20px;
+  }
+
+  .project-image{
+    margin: 0px 24px;
+    width: 90%;
+  }
+}

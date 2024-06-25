@@ -132,3 +132,62 @@
 .about-achievement:hover{
   transform: scale(1.2);
 }
+
+@media (max-width: 768px){
+  .about{
+    margin: 80px 20px;  
+  }
+
+  .about-title h2{
+    font-size: 2.4rem;
+    width: 200px;
+  }
+
+  .about-profile-img{
+    display: none;
+  }
+
+  .about-sections{
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .about-right{
+    gap: 40px;
+  }
+
+  .about-para{
+    margin-top: -60px;
+    font-size: 1.6rem;
+    line-height: 35px;
+  }
+
+  .about-skills{
+    margin-top: -20px;
+    font-size: 1rem;
+  }
+
+  .about-skill p{
+    font-size: 1rem;
+  }
+
+  .about-skill hr{
+    height: 6px;
+  }
+
+  .about-skills h3{
+    font-size: 1.8rem;
+  }
+
+  .achievement-head{
+    font-size: 2.6rem;
+  }
+
+  .about-achievement h3{
+    font-size: 2rem;
+  }
+
+  .about-achievement p{
+    font-size: 1.2rem;
+  }
+}

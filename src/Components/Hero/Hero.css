@@ -12,7 +12,6 @@
   object-fit: cover;
   border-radius: 50%;
   border: none;
-  box-shadow: -10px 10px 10px 5px rgb(45, 34, 91);
   transition: all 0.4s ease-in-out;
 }
 
@@ -83,4 +82,37 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+
+@media (max-width: 768px){
+  .hero{
+    margin-bottom: 80px;
+  }
+
+  .profile-img{
+    margin-left: 32px;
+    width: 250px;
+    height: 250px;
+    align-self: center;
+  }
+
+  .hero h1{
+    font-size: 2.5rem;
+  }
+
+  .hero p{
+    font-size: 1.4rem;
+  }
+
+  .hero-action{
+    gap: 16px;
+  }
+
+  .hero-connect{
+    padding: 12px 32px;
+  }
+
+  .hero-resume{
+    padding: 12px 32px;
+  }
 }

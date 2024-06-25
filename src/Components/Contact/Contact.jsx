@@ -27,7 +27,7 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-      alert(res.message,"\nMessage has been sent successfully");
+      alert(res.message);
     }
   };
 

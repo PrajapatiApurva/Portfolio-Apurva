@@ -87,3 +87,24 @@
   transform: scale(1.08);
   transition: all 0.3s ease;
 }
+
+@media (max-width: 768px){
+
+  .services-title h2{
+    font-size: 2.4rem;
+    width: 300px;
+  }
+
+  .services{
+    margin: 80px 20px;
+  }
+
+  .services-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .services-format{
+    width: 100%;
+  }
+
+}

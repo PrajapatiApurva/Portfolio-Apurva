@@ -74,3 +74,58 @@
   gap: 48px;
   margin-bottom: 48px;
 }
+
+@media (max-width: 768px){
+
+  .footer-logo{
+    margin-left: 250px;
+    align-self: center;
+    height: 80px;
+  }
+
+  .footer{
+    margin: 48px 20px;
+  }
+
+  .footer-top{
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .footer-top-left p{
+    align-self: center;
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 30px;
+    max-width: 100%;
+  }
+
+  .footer-top-right{
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer-email-input{
+    gap: 16px;
+    padding: 16px 24px;
+  }
+
+  .footer-email-input input{
+    font-size: 1rem;
+  }
+
+  .footer-subscribe{
+    font-size: 1rem;
+    padding: 16px 32px;
+  }
+
+  .footer-bottom{
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer-bottom-right{
+    flex-direction: column;
+    gap: 16px;
+  }
+}
