@@ -78,7 +78,7 @@
 @media (max-width: 768px){
 
   .footer-logo{
-    margin-left: 250px;
+    margin-left: 20px;
     align-self: center;
     height: 80px;
   }
@@ -94,10 +94,11 @@
 
   .footer-top-left p{
     align-self: center;
+    margin-left: 30px;
     margin-top: 16px;
     font-size: 1.6rem;
     line-height: 30px;
-    max-width: 100%;
+    max-width: 80%;
   }
 
   .footer-top-right{

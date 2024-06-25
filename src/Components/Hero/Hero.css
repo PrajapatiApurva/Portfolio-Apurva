@@ -76,13 +76,19 @@
   border:2px solid #B923E1;
 }
 
-.hero-resume:hover{
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.hero-resume:hover,a:hover{
   border-color: #B923E1;
   background: linear-gradient(260deg, #DA7C25 0.42%, #B923E1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
+
 
 @media (max-width: 768px){
   .hero{
