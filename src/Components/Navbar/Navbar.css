@@ -72,14 +72,14 @@
   .toggle-icon-open{
     display: block;
     position: fixed;
-    right: 300px;
+    right: 30px;
   }
 
   .toggle-icon-close{
     display: block;
     position: relative;
     top: 32px;
-    left: 12 0px;
+    left: 120px;
     width: 30px;
   }
 
@@ -89,7 +89,7 @@
     align-items: center;
     background-color: #1f0016;
     top: 0;
-    margin-right: -36px;
+    /* left: 420px; */
     height: 100%;
     width: 350px;
     z-index: 999;
