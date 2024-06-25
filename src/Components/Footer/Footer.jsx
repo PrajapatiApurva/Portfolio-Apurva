@@ -25,7 +25,7 @@ const Footer = () => {
       <hr />
       <div className="footer-bottom">
         <div className="footer-bottom-left">
-          <p>&copy; 2021 Apurva Prajapati. All rights reserved.</p>
+          <p>&copy; 2024 Apurva Prajapati. All rights reserved.</p>
         </div>
         <div className="footer-bottom-right">
           <p>Terms of Services</p>

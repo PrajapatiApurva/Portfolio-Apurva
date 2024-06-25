@@ -1,6 +1,8 @@
 .footer-logo{
   height: 50px;
   margin-left: -16px;
+  border-radius: 50px;
+  border: 2px solid #B923E1;
 }
 .footer{
   display: flex;
