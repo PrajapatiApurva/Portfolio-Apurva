@@ -3,6 +3,9 @@ import "./Contact.css";
 import call_icon from "../../assets/assets/call_icon.svg";
 import mail_icon from "../../assets/assets/mail_icon.svg";
 import location_icon from "../../assets/assets/location_icon.svg";
+import github_mark from "../../assets/assets/github_mark.svg";
+import linkedin_mark from "../../assets/assets/linkedin_mark.svg";
+import leetcode_mark from "../../assets/assets/leetcode_mark.svg";
 
 const Contact = () => {
 
@@ -62,6 +65,11 @@ const Contact = () => {
             <div className="contact-detail">
               <img src={location_icon} alt="call_icon" />
               <p>Mehsana, Gujarat, India</p>
+            </div>
+            <div className="contact-detail social">
+              <a target="_blank" href="https://github.com/PrajapatiApurva"><img src={github_mark} alt="call_icon" /></a>
+              <a target="_blank" href="https://www.linkedin.com/in/apurva-prajapati/"><img src={linkedin_mark} alt="call_icon" /></a>
+              <a target="_blank" href="https://leetcode.com/u/ApurvaPrajapati/"><img src={leetcode_mark} alt="call_icon" /></a>
             </div>
           </div>
         </div>

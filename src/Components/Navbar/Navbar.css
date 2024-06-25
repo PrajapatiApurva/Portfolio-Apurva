@@ -72,6 +72,7 @@
   .toggle-icon-open{
     display: block;
     position: fixed;
+    top: 1;
     right: 30px;
   }
 

@@ -92,11 +92,13 @@
 
   .services-title h2{
     font-size: 2.4rem;
-    width: 300px;
+    width: 240px;
   }
 
   .services{
-    margin: 80px 20px;
+    align-items: start;
+    gap: 60px;
+    margin: 20px 50px;
   }
 
   .services-container{
@@ -104,6 +106,7 @@
   }
 
   .services-format{
+    gap: 20px;
     width: 100%;
   }
 
