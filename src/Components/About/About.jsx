@@ -5,7 +5,7 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about" id="about">
-      <div className="about-title">
+      <div className="about-title sub-title">
         <h2>About Me</h2>
       </div>
       <div className="about-sections">
@@ -37,21 +37,22 @@ const About = () => {
       </div>
       <h3 className="achievement-head">Achievements</h3>
       <div className="about-achievements">
-            <div className="about-achievement">
-              <h3>10+</h3>
-              <p>Projects Completed</p>
-            </div>
-            <hr />
-            <div className="about-achievement">
-              <h3>8.6+</h3>
-              <p>Sgpa in every semester</p>
-            </div>
-            <hr />
-            <div className="about-achievement">
-              <h3>5+</h3>
-              <p>Certifications</p>  
-            </div>
-          </div>    
+        <div className="about-achievement">
+          <h3>10+</h3>
+          <p>Projects Completed</p>
+        </div>
+        <hr />
+        <div className="about-achievement">
+          <h3>8.6+</h3>
+          <p>Sgpa in every semester</p>
+        </div>
+        <hr />
+        <div className="about-achievement">
+          <h3>5+</h3>
+          <p>Certifications</p>  
+        </div>
+      </div>
+      <br /><br />    
     </div>
   );
 };

@@ -3,18 +3,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 80px;
   margin: 60px 100px;
 }
 
 .project-title h2{
   text-align: center;
-  font-size: 3rem;
   width: 450px;
   border-bottom: 5px solid #f1356d;
   padding: 10px;
+  margin-bottom: 40px;
   border-radius: 25%;
-  margin: 80px auto;
   transition: all 0.3s ease;
 }
 
@@ -23,17 +22,16 @@
 }
 
 .project-container{
+  margin-top: -80px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  gap: 40px;
+  gap: 20px;
 }
 
 .project-image{
   box-sizing: border-box;
-  width: 420px;
-  height: 280px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 400px;
+  height: 250px;
   margin-left: 20px;
   border-radius:16px;
   object-fit: contain;
@@ -42,7 +40,7 @@
 }
 
 .project-image:hover{
-  transform: scale(1.12);
+  transform: scale(1.1);
   border:4px solid #ff004c;
 }
 

@@ -1,6 +1,14 @@
+.services{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 80px 160px;
+}
+
 .services-title h2{
   text-align: center;
-  font-size: 3rem;
   width: 350px;
   border-bottom: 5px solid #f1356d;
   padding: 10px;
@@ -11,15 +19,6 @@
 
 .services-title h2:hover{
   border-bottom: 5px solid #f06507;
-}
-
-.services{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 80px;
-  margin: 80px 160px;
 }
 
 .services-format{

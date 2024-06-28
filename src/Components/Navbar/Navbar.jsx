@@ -25,13 +25,13 @@ const Navbar = () => {
       <img  onClick={openMenu} src={menu_open} alt='toggle-icon-open' className='toggle-icon-open'/>
       <ul ref={menuRef} className="nav-menu">
         <img onClick={closeMenu} src={menu_close} alt='toggle-icon-close' className='toggle-icon-close'/>
-        <li><AnchorLink href='#hero'><p onClick={()=> setMenu('home')}>Home</p></AnchorLink>{menu==='home'&&<img src={underline} alt='underline'/>}</li>
-        <li><AnchorLink offset={50} href='#about'><p onClick={()=> setMenu('about')}>About Me</p></AnchorLink>{menu==='about'&&<img src={underline} alt='underline'/>}</li>
-        <li><AnchorLink offset={50} href='#services'><p onClick={()=> setMenu('services')}>Services</p></AnchorLink>{menu==='services'&&<img src={underline} alt='underline'/>}</li>
-        <li><AnchorLink offset={50} href='#projects'><p onClick={()=> setMenu('projects')}>Portfolio</p></AnchorLink>{menu==='projects'&&<img src={underline} alt='underline'/>}</li>
-        <li><AnchorLink offset={50} href='#contact'><p onClick={()=> setMenu('contact')}>Contact</p></AnchorLink>{menu==='contact'&&<img src={underline} alt='underline'/>}</li>
+        <li><AnchorLink href='#hero'><p onClick={()=> setMenu('home')}>Home  {menu==='home' && <div className={'underline'}></div>}</p></AnchorLink></li>
+        <li><AnchorLink offset={50} href='#about'><p onClick={()=> setMenu('about')}>About Me {menu==='about' && <div className={'underline'}></div>}</p></AnchorLink></li>
+        <li><AnchorLink offset={50} href='#services'><p onClick={()=> setMenu('services')}>Services {menu==='services' && <div className={'underline'}></div>}</p></AnchorLink></li>
+        <li><AnchorLink offset={50} href='#projects'><p onClick={()=> setMenu('projects')}>Projects {menu==='projects' && <div className={'underline'}></div>}</p></AnchorLink></li>
+        <li><AnchorLink offset={50} href='#contact'><p onClick={()=> setMenu('contact')}>Contact {menu==='contact' && <div className={'underline'}></div>}</p></AnchorLink></li>
       </ul>
-      <div className="nav-connect"><AnchorLink href='#footer'>Connect With Me</AnchorLink></div>
+      <AnchorLink href='#footer'><div className="nav-connect">Connect With Me</div></AnchorLink>
     </div>
   )
 }

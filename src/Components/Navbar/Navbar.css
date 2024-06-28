@@ -3,6 +3,7 @@
   margin-left: -15px;
   margin-top: 4px;
   border-radius: 16px;
+  cursor: pointer;
 }
 
 .navbar {
@@ -23,6 +24,23 @@
   font-weight: 600;
   font-size: 1.2rem;
 }
+.nav-menu li p div{
+  width: 100%;
+}
+
+.nav-menu li p:hover{
+  background: linear-gradient(260deg, #DA7C25 0.42%, #B923E1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.underline{
+  margin-top: 4px;
+  width: 100%;
+  background-color: #B923E1;
+  height: 2px;
+}
 
 .nav-menu li{
   display: flex;
@@ -37,19 +55,20 @@
 }
 
 .nav-connect{
+  font-size: 1.1rem;
   padding: 16px 32px;
   border-radius: 50px;
-  font-size: 1.4 rem;
   cursor: pointer;
   transition: 0.3s;
   border: 2px solid #B923E1;
+  color: white;
 }
 
 .nav-connect:hover{
   border: 2px solid #161513;
+  color: #161513;
   background: linear-gradient(260deg, #DA7C25 0.42%, #B923E1 100%);
   transform: scale(1.05);
-  color: #161513;
 }
 
 .toggle-icon-close{

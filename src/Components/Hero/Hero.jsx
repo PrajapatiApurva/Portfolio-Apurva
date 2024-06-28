@@ -7,6 +7,8 @@ import Resume from "../../assets/Resume.pdf";
 const Hero = () => {
   return (
     <div className="hero" id="hero">
+      <br />
+      <br />
       <img src={profile_img} alt="" className="profile-img" />
       <h1><span>I'm Apurva Prajapati,</span> a Web Developer.</h1>
       <p>

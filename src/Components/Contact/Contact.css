@@ -1,11 +1,18 @@
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 80px 160px;
+}
+
 .contact-title h2{
   text-align: center;
-  font-size: 3rem;
   width: 350px;
   border-bottom: 5px solid #f1356d;
   padding: 10px;
   border-radius: 25%;
-  margin: 20px auto;
   transition: all 0.3s ease;
 }
 
@@ -34,14 +41,7 @@ a{
   border-bottom: 5px solid #f06507;
 }
 
-.contact{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 80px;
-  margin: 60px 160px;
-}
+
 
 .contact-section{
   display: flex;

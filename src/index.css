@@ -28,3 +28,9 @@ body{
   background: #161513;
   color: rgb(249, 237, 237);
 }
+
+.sub-title{
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
