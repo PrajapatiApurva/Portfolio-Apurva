@@ -9,7 +9,7 @@
 
 .contact-title h2{
   text-align: center;
-  width: 350px;
+  width: 260px;
   border-bottom: 5px solid #f1356d;
   padding: 10px;
   border-radius: 25%;
@@ -146,35 +146,30 @@ a{
 @media (max-width: 768px){
 
   .contact{
-    margin: 50px 70px;
-    align-items: start;
-    gap: 50px;
+    margin: 50px 20px;
   }
 
   .contact-title h2{
-    font-size: 2.6rem;
-    width: 260px;
+    font-size: 2.4rem;
+    padding: 0;
+    width: 220px;
   }
 
   .contact-section{
     flex-direction: column;
-    gap: 40px;
+    gap: 80px;
   }
 
   .contact-left h3{
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
 
   .contact-left p{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
-  /* .contact-details{
-    font-size: 20px;
-  } */
-
   .contact-right label{
-    font-size: 20px;
+    font-size: 1.4rem;
   }
 
   .contact-right input{

@@ -14,13 +14,13 @@
 /* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1; 
-  background: #91f859;
+  background: #d767f9;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background:linear-gradient(260deg, #DA7C25 8%, #B923E1 100%);
-  border-radius: 50px; 
+  background:linear-gradient(26deg, #e57811 42%, #c11aef 100%);
+  border-radius: 3px; 
 }
 
 body{

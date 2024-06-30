@@ -9,7 +9,7 @@
 
 .services-title h2{
   text-align: center;
-  width: 350px;
+  width: 280px;
   border-bottom: 5px solid #f1356d;
   padding: 10px;
   border-radius: 25%;
@@ -91,13 +91,13 @@
 
   .services-title h2{
     font-size: 2.4rem;
+    padding: 0;
     width: 240px;
   }
 
   .services{
-    align-items: start;
     gap: 60px;
-    margin: 20px 50px;
+    margin: 20px 20px;
   }
 
   .services-container{

@@ -49,7 +49,7 @@ const Contact = () => {
           </p>
           <div className="contact-details">
             <div className="contact-detail">
-              <img src={mail_icon} alt="call_icon" />
+              <img src={mail_icon} alt="mail_icon" />
               <p>
                 <a href="mailto:appu18092003@gmail.com">
                   appu18092003@gmail.com
@@ -63,8 +63,8 @@ const Contact = () => {
               </p>
             </div>
             <div className="contact-detail">
-              <img src={location_icon} alt="call_icon" />
-              <p>Mehsana, Gujarat, India</p>
+              <img src={location_icon} alt="location_icon" />
+              <a href="https://maps.app.goo.gl/YqscVurT4SiwUEpB9">Mehsana, Gujarat, India</a>
             </div>
             <div className="contact-detail social">
               <a target="_blank" href="https://github.com/PrajapatiApurva"><img src={github_mark} alt="call_icon" /></a>

@@ -1,6 +1,6 @@
 .navbar-logo {
   width: 200px;
-  margin-left: -15px;
+  margin-left: -40px;
   margin-top: 4px;
   border-radius: 16px;
   cursor: pointer;
@@ -80,6 +80,13 @@
 }
 
 @media (max-width: 768px){
+
+  .navbar-logo{
+    width: 150px;
+    margin-left: -40px;
+    margin-top: 4px;
+  }
+
   .navbar{
     margin: 20px 50px;
   }
@@ -91,16 +98,16 @@
   .toggle-icon-open{
     display: block;
     position: fixed;
-    top: 1;
     right: 30px;
   }
 
   .toggle-icon-close{
     display: block;
     position: relative;
-    top: 32px;
-    left: 200px;
-    width: 30px;
+    top: 16px;
+    left: 75%;
+    width: 24px;
+    margin-bottom: 16px;
   }
 
   .nav-menu{
@@ -108,22 +115,17 @@
     flex-direction: column;
     align-items: start;
     top: 0;
-    gap: 32px;
+    right: 0;
+    gap: 16px;
     background-color: #1f0016;
-    width: 250px;
-    /* left: 40px; */
+    width: 50%;
     height: 100%;
     z-index: 9;
     transition: right 0.5s;
-    right: -30px;
   }
 
   .nav-menu li{
     margin-left: 16px;
-    font-size: 1.8rem;
-    padding-left: 1.8vw;
-    flex-direction: row;
-    gap: 16px;
+    font-size: 1.4rem;
   }
-
 }

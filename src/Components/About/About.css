@@ -143,8 +143,8 @@
 @media (max-width: 768px){
   .about{
     gap: 80px;
-    margin: 50px 70px;
-    align-items: start;  
+    margin: 20px 20px;
+    justify-content: start;
   }
 
   .about-title h2{
@@ -162,27 +162,14 @@
     gap: 12px;
   }
 
-  .about-right{
-    gap: 40px;
-  }
-
   .about-para{
-    margin-top: -60px;
-    font-size: 1.6rem;
-    line-height: 35px;
-  }
-
-  .about-skills{
-    margin-top: -20px;
-    font-size: 1rem;
+    margin-top: -20%;
+    font-size: 1.4rem;
+    line-height: 120%;
   }
 
   .about-skill p{
     font-size: 1rem;
-  }
-
-  .about-skill hr{
-    height: 6px;
   }
 
   .about-skills h3{
@@ -191,7 +178,7 @@
 
   .achievement-head{
     align-self: center;
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
 
   .about-achievements{
@@ -205,5 +192,9 @@
 
   .about-achievement p{
     font-size: 1.2rem;
+  }
+
+  .about-achievements hr{
+    margin-left: 4%;
   }
 }
