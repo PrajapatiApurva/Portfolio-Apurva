@@ -115,7 +115,7 @@
     flex-direction: column;
     align-items: start;
     top: 0;
-    right: 0;
+    right: -300px;
     gap: 16px;
     background-color: #1f0016;
     width: 50%;

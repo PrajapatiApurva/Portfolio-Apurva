@@ -7,9 +7,9 @@ const Services_Data = [
     },
     {
         s_no:"02",
-        s_name:"Graphics design",
-        s_desc:"Graphic design is a craft where professionals ...",
-        s_link:"https://en.wikipedia.org/wiki/Graphic_design"
+        s_name:"Frontend Dev",
+        s_desc:"Front-end development is the process of ...",
+        s_link:"https://www.freecodecamp.org/news/front-end-developer-what-is-front-end-development-explained-in-plain-english/"
     },
     {
         s_no:"03",
