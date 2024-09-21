@@ -44,7 +44,7 @@ const About = () => {
         <hr />
         <div className="about-achievement">
           <h3>8.6+</h3>
-          <p>Sgpa in every semester</p>
+          <p>Cgpa till Now(till 6th Sem)</p>
         </div>
         <hr />
         <div className="about-achievement">
