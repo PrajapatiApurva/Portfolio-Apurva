@@ -59,7 +59,7 @@ const Contact = () => {
             <div className="contact-detail">
               <img src={call_icon} alt="call_icon" />
               <p>
-                <a href="tel:+91-1234567890">+91 1234567890</a>
+                <a href="tel:+91-8128393618">+91 8128393618</a>
               </p>
             </div>
             <div className="contact-detail">
